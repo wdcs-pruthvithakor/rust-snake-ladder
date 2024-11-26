@@ -1,0 +1,8 @@
+[package]
+name = "snake_ladder"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+termcolor = "1.2"
+rand = "0.8.4"
