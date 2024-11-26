@@ -8,7 +8,7 @@ documentation = "https://docs.rs/snake_ladder" # If you have hosted documentatio
 readme = "README.md" # Include a README file for the project
 # authors = ["Your Name <your.email@example.com>"] # Replace with your name and email
 keywords = ["game", "snakes-and-ladders", "terminal-game", "rust"]
-categories = ["game", "command-line-utilities"]
+categories = ["games", "command-line-utilities"]
 
 [dependencies]
 termcolor = "1.2"
