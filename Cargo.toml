@@ -1,15 +1,17 @@
 [package]
 name = "snake_ladder"
-version = "0.2.0"
+version = "1.0.0"
 edition = "2021"
-description = "A simple terminal-based implementation of Snakes and Ladders in Rust."
+description = "A graphical implementation of the classic Snakes and Ladders game in Rust, featuring multiplayer support, interactive UI, and customizable snakes and ladders positions."
 license = "MIT" # Choose a license; common ones are MIT, Apache-2.0, or GPL-3.0.
 documentation = "https://docs.rs/snake_ladder" # If you have hosted documentation
 readme = "README.md" # Include a README file for the project
 # authors = ["Your Name <your.email@example.com>"] # Replace with your name and email
-keywords = ["game", "snakes-and-ladders", "terminal-game", "rust"]
+keywords = ["game", "snakes-and-ladders", "multiplayer", "rust", "gui"]
 categories = ["games", "command-line-utilities"]
 
 [dependencies]
 termcolor = "1.2"
 rand = "0.8.4"
+egui = "0.30"
+eframe = "0.30"
